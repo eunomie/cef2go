@@ -33,16 +33,16 @@
 
 #include <stdint.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "include/internal/cef_export.h"
 #include "include/internal/cef_string.h"
 #include "include/internal/cef_string_list.h"
 #include "include/internal/cef_string_map.h"
 #include "include/internal/cef_string_multimap.h"
 #include "include/internal/cef_types.h"
-
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 ///
 // Structure defining the reference count implementation functions. All

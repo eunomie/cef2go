@@ -38,6 +38,10 @@
 #define CEF_INCLUDE_CAPI_CEF_REQUEST_HANDLER_CAPI_H_
 #pragma once
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "include/capi/cef_auth_callback_capi.h"
 #include "include/capi/cef_base_capi.h"
 #include "include/capi/cef_browser_capi.h"
@@ -47,10 +51,6 @@
 #include "include/capi/cef_response_capi.h"
 #include "include/capi/cef_ssl_info_capi.h"
 #include "include/capi/cef_web_plugin_capi.h"
-
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 
 ///
